@@ -206,12 +206,12 @@ class Case extends Component {
               flow.
             </Paragraph>
             <CaseImagesCenter>
-              <img src="resources/img/ss/left-map.jpg" />
-              <img src="resources/img/ss/right-map.jpg" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/left-map.jpg" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/right-map.jpg" />
             </CaseImagesCenter>
             <CaseImagesCenter>
-              <img src="resources/img/ss/groupsite.PNG" />
-              <img src="resources/img/ss/MindMap.PNG" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/groupsite.PNG" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/MindMap.PNG" />
             </CaseImagesCenter>
             <Paragraph>
               These were amended based on how it would structure together.
@@ -223,8 +223,8 @@ class Case extends Component {
               blue.
             </Paragraph>
             <CaseImagesCenter>
-              <img src="resources/img/ss/Colorscheme.png" />
-              <img src="resources/img/ss/Font.png" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/Colorscheme.png" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/Font.png" />
             </CaseImagesCenter>
             <Paragraph>
               Alongside these details, we felt like creating a platform that
@@ -233,12 +233,12 @@ class Case extends Component {
               guidelines.
             </Paragraph>
             <CaseImagesCenter>
-              <img src="resources/img/ss/hero-image-1.jpg" />
-              <img src="resources/img/ss/shutterstock_337780691.jpg" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/hero-image-1.jpg" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/shutterstock_337780691.jpg" />
             </CaseImagesCenter>
             <CaseImagesCenter>
-              <img src="resources/img/ss/hero-image-2.jpg" />
-              <img src="resources/img/ss/hero-image-3.jpg" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/hero-image-2.jpg" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/hero-image-3.jpg" />
             </CaseImagesCenter>
             <TinyHeading>Design</TinyHeading>
             <Paragraph>
@@ -250,10 +250,10 @@ class Case extends Component {
               also receive system notifications. My designs below:
             </Paragraph>
             <CaseImagesLeft>
-              <img src="resources/img/ss/inbox.png" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/inbox.png" />
             </CaseImagesLeft>
             <CaseImagesLeft>
-              <img src="resources/img/ss/openemail.png" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/openemail.png" />
             </CaseImagesLeft>
             <Paragraph>
               The decision to take an email client as a model is to create a
@@ -263,13 +263,13 @@ class Case extends Component {
               designed the advert page as well.
             </Paragraph>
             <CaseImagesLeft>
-              <img src="resources/img/ss/new.png" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/new.png" />
             </CaseImagesLeft>
             <CaseImagesLeft>
-              <img src="resources/img/ss/reply.png" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/reply.png" />
             </CaseImagesLeft>
             <CaseImagesLeft>
-              <img src="resources/img/ss/productpage.jpg" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/productpage.jpg" />
             </CaseImagesLeft>
             <Paragraph>
               In addition to the designs, I set up a database after reviewing
@@ -278,7 +278,7 @@ class Case extends Component {
               starting point.
             </Paragraph>
             <CaseImagesLeft>
-              <img src="resources/img/ss/database.png" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/database.png" />
             </CaseImagesLeft>
             <Paragraph>
               After the designs were completed, we began coding, and setting up
@@ -289,7 +289,7 @@ class Case extends Component {
               completion level.
             </Paragraph>
             <CaseImagesLeft>
-              <img src="resources/img/ss/inboxlive.png" />
+              <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/inboxlive.png" />
             </CaseImagesLeft>
             <Paragraph>
               The payment model is a mimic that takes proper credit card details

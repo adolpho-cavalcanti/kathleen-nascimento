@@ -49,7 +49,7 @@ const Home = ({ history }) => {
       </Article>
       <Article>
         <CoverSheet />
-        <CoverImg alt="Portfólio Kathleen Nascimento" src={background} alt="Hayo Cover Photo" />
+        <CoverImg src={background} alt="Hayo Cover Photo" />
       </Article>
     </Wrapper>
   );

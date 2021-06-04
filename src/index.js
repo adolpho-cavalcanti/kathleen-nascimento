@@ -1,17 +1,56 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, { useEffect, useState } from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import Preloader from "./pages/Preloader";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Work from "./pages/Work";
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import "./styles/root.css";
+import "./styles/media.css";
+import NavigationMenu from "./pages/Nav";
+import Case from "./pages/Case";
+
+const App = () => {
+  const [loading, setLoading] = useState(true);
+  const [navBackground, setNavBack] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, [loading]);
+
+  return (
+    <Router>
+      {loading ? (
+        <Preloader />
+      ) : (
+        <div className="App">
+          <NavigationMenu
+            firstTime={loading}
+            hasBackground={navBackground}
+            setBackground={state => setNavBack(state)}
+          />
+          <Route path="/" exact component={Home} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/about" component={About} />
+          <Route path="/work" component={Work} />
+          <Route
+            path="/case"
+            component={() => (
+              <Case setNavBackground={state => setNavBack(state)} />
+            )}
+          />
+        </div>
+      )}
+    </Router>
+  );
+};
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
+
+//https://medium.com/@ItsMeDannyZ/how-to-build-a-progress-bar-with-react-8c5e79731d1f

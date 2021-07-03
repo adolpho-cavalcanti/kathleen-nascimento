@@ -1,10 +1,10 @@
 const theme = {
     colors: {
-      blueLeve: "#ce2f34",
+      red: "#ce2f34",
       lightblue: "#0a2463",
       blue: "#3f88c5",
       yellow: "#ffe900",
-      lightSalmon: "#eae1c0",
+      peach: "#eae1c0",
       lightGreen: "#39df93",
       green: "#09814a",
       darkGreen: "#2d4739",

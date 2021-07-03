@@ -33,7 +33,7 @@ export const BackButton = styled.div`
   &:hover {
     cursor: pointer;
     border-radius: 50%;
-    background-color: ${theme.colors.red} !important;
+    background-color: ${theme.colors.blueLeve} !important;
   }
 `;
 
@@ -57,7 +57,7 @@ const List = styled.ul`
   list-style: disc !important;
 `;
 
-export const OrderedList = styled.ol`
+export const OrdeblueLeveList = styled.ol`
   line-height: 35px;
   padding-left: 50px;
   text-indent: 25px;
@@ -84,7 +84,7 @@ export const Anchor = styled.a`
   text-transform: capitalize;
   font-weight: 600;
   text-decoration: none;
-  color: ${theme.colors.red};
+  color: ${theme.colors.blueLeve};
   line-height: 35px;
   margin-bottom: 25px;
   z-index: 3;
@@ -279,13 +279,13 @@ export const NextCase = styled.div`
       animation-fill-mode: forwards;
       > p {
         position: relative;
-        color: ${theme.colors.red};
+        color: ${theme.colors.blueLeve};
       }
-      background-color: ${theme.colors.red};
+      background-color: ${theme.colors.blueLeve};
     `}
 
   &:hover {
-    background-color: ${theme.colors.red};
+    background-color: ${theme.colors.blueLeve};
     cursor: pointer;
 
     > p {

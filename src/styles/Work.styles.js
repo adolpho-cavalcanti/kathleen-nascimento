@@ -10,7 +10,7 @@ export const Wrapper = styled.main`
   position: relative;
   transition: opacity 0.2s ease-in-out;
   overflow: hidden;
-  background-color: ${theme.colors.red};
+  background-color: ${theme.colors.blueLeve};
 `;
 
 export const HomeLink = styled.section`
@@ -32,13 +32,13 @@ export const HomeLink = styled.section`
       animation-fill-mode: forwards;
       > p {
         position: relative;
-        color: ${theme.colors.blue};
+        color: ${theme.colors.lightSalmon};
       }
-      background-color: ${theme.colors.blue};
+      background-color: ${theme.colors.lightSalmon};
     `}
 
   &:hover {
-    background-color: ${theme.colors.blue};
+    background-color: ${theme.colors.lightSalmon};
     cursor: pointer;
     height: 8%;
   }
@@ -141,13 +141,13 @@ export const LinkWrap = styled.a`
       background-color: rgba(0, 0, 0, 0.6);
     }
     div > div > h3 {
-      color: ${theme.colors.red};
+      color: ${theme.colors.blueLeve};
       cursor: pointer;
       opacity: 1;
       transform: skewX(-20deg);
     }
     div > div > h3 > span {
-      background-color: ${theme.colors.red};
+      background-color: ${theme.colors.blueLeve};
       transform: skewX(20deg) translate(-50%, -50%);
       width: 100%;
     }

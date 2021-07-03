@@ -13,7 +13,7 @@ import {
 export const Wrapper = styled.section`
   position: relative;
   display: block;
-  background-color: ${theme.colors.blue};
+  background-color: ${theme.colors.lightSalmon};
 `;
 
 export const WorkLink = styled.article`
@@ -39,13 +39,13 @@ export const WorkLink = styled.article`
       animation-fill-mode: forwards;
       > p {
         position: relative;
-        color: ${theme.colors.red};
+        color: ${theme.colors.blueLeve};
       }
-      background-color: ${theme.colors.red};
+      background-color: ${theme.colors.blueLeve};
     `}
 
   &:hover {
-    background-color: ${theme.colors.red};
+    background-color: ${theme.colors.blueLeve};
     cursor: pointer;
   }
 
@@ -92,13 +92,13 @@ export const AboutLink = styled.article`
       animation-fill-mode: forwards;
       > p {
         position: relative;
-        color: ${theme.colors.green};
+        color: ${theme.colors.lightPurple};
       }
-      background-color: ${theme.colors.green};
+      background-color: ${theme.colors.lightPurple};
     `}
 
   &:hover {
-    background-color: ${theme.colors.green};
+    background-color: ${theme.colors.lightPurple};
     cursor: pointer;
   }
 
@@ -143,7 +143,7 @@ export const Article = styled.article`
 `;
 
 export const Title = styled(LargeHead)`
-  color: ${theme.colors.white};
+  color: ${theme.colors.black};
   text-transform: uppercase;
   line-height: 1;
   position: absolute;
@@ -154,9 +154,9 @@ export const Title = styled(LargeHead)`
 `;
 
 export const Caption = styled(TinyHead)`
-  color: white;
+  color: black;
   position: absolute;
-  bottom: 10%;
+  bottom: 30%;
   display: block;
   width: 85%;
   left: 100%;
@@ -164,11 +164,11 @@ export const Caption = styled(TinyHead)`
 `;
 
 export const Emphasis = styled.span`
-  color: ${theme.colors.lightBlue};
+  color: ${theme.colors.purple};
 `;
 
 export const CoverSheet = styled.div`
-  background-color: ${theme.colors.blue};
+  background-color: ${theme.colors.lightSalmon};
   opacity: 0;
   position: absolute;
   width: 100%;

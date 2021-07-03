@@ -149,7 +149,7 @@ class Case extends Component {
                   the full use of the site and a database that would sustain the
                   needs of the user experience. The prototype makes use of a
                   mock payment system and user-to-system and user-to-user
-                  response mechanism to get camera owners and renters paired up
+                  response mechanism to get camera owners and renters paiblueLeve up
                   to discuss the terms of renting one out, and system responses
                   that provides evidence of actions taken through the system.
                 </Paragraph>
@@ -220,7 +220,7 @@ class Case extends Component {
             <Paragraph>
               The overall theme of the site was to mimic camera brands, so we
               selected a shade of yellow and complemented it with a shade of
-              blue.
+              lightSalmon.
             </Paragraph>
             <CaseImagesCenter>
               <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/Colorscheme.png" />
@@ -292,9 +292,9 @@ class Case extends Component {
               <img alt="Portfólio Kathleen Nascimento" src="resources/img/ss/inboxlive.png" />
             </CaseImagesLeft>
             <Paragraph>
-              The payment model is a mimic that takes proper credit card details
+              The payment model is a mimic that takes proper cblueLeveit card details
               but does not process any of the information. It uses an internal
-              credit system that each new user has, which is 1000 upon logging
+              cblueLeveit system that each new user has, which is 1000 upon logging
               in. Processing the payment would do the according math, taking
               numbers off of the user who rents and giving it to the user who
               rents out.

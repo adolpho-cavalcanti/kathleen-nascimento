@@ -7,7 +7,7 @@ export const Wrapper = styled.main`
   display: block;
   height: 100vh;
   width: 100vw;
-  background-color: ${theme.colors.peach};
+  background-color: ${theme.colors.lightSalmon};
 `;
 
 export const Container = styled.div`

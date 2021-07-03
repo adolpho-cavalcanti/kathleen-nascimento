@@ -80,13 +80,13 @@ export const Page = styled.h3`
       color: ${({ variant }) => {
         switch (variant) {
           case "home":
-            return theme.colors.blue;
+            return theme.colors.lightSalmon;
           case "work":
-            return theme.colors.red;
+            return theme.colors.blueLeve;
           case "about":
-            return theme.colors.green;
+            return theme.colors.lightPurple;
           case "contact":
-            return theme.colors.peach;
+            return theme.colors.lightSalmon;
           default:
             return theme.colors.white;
         }
@@ -99,13 +99,13 @@ export const Page = styled.h3`
       background-color: ${({ variant }) => {
         switch (variant) {
           case "home":
-            return theme.colors.blue;
+            return theme.colors.lightSalmon;
           case "work":
-            return theme.colors.red;
+            return theme.colors.blueLeve;
           case "about":
-            return theme.colors.green;
+            return theme.colors.lightPurple;
           case "contact":
-            return theme.colors.peach;
+            return theme.colors.lightSalmon;
           default:
             return theme.colors.white;
         }

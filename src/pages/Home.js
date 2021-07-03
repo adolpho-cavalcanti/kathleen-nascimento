@@ -31,7 +31,7 @@ const Home = ({ history }) => {
         setAnimateAbout(false);
       }, 400);
   }, [animateWork, animateAbout, history]);
-  const background = require("../assets/images/cover-img.jpg");
+  const background = require("../assets/portfolio/x11/foto-work.jpg");
   return (
     <Wrapper>
       <WorkLink onClick={() => setAnimateWork(true)} animating={animateWork}>
@@ -41,10 +41,9 @@ const Home = ({ history }) => {
         <AboutText>About</AboutText>
       </AboutLink>
       <Article>
-        <Title>Hello There.</Title>
+        <Title>Olá, sou a Kathleen</Title>
         <Caption>
-          The name's <Emphasis>Hayo Friese</Emphasis>, web developer and student
-          extraordinaire*.
+          <Emphasis>Eu desenvolvo interface e experiência</Emphasis>, Design UX/UI e estudante extradiordinária.
         </Caption>
       </Article>
       <Article>

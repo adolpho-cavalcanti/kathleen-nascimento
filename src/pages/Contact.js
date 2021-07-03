@@ -19,8 +19,7 @@ const Contact = ({ history }) => {
         <TextLink>Home</TextLink>
       </HomeLink>
       <Container>
-        <Header>hayo.friese@gmail.com</Header>
-        <Header>+31 (0) 6 1334 54 31</Header>
+        <Header>kathleen_nascimento@id.uff.br</Header>
       </Container>
     </Wrapper>
   );

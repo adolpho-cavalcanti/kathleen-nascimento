@@ -41,7 +41,7 @@ const About = ({ history }) => {
       }, 400);
   }, [animateWork, animateHome, history]);
 
-  const canada = require("../assets/images/canada.jpg");
+  const lazer = require("../assets/portfolio/x11/foto-lazer.jpeg");
 
   return (
     <Wrapper>
@@ -49,145 +49,31 @@ const About = ({ history }) => {
         <HomeText>Home</HomeText>
       </HomeLink>
       <Body>
-        <ImageBackground backgroundImage={canada}>
+        <ImageBackground backgroundImage={lazer}>
           <Overlay />
         </ImageBackground>
         <Container>
           <Hero>
-            <Heading>Who am i?</Heading>
+            <Heading>Quem sou eu?</Heading>
             <Subtitle>
-              So I'm Hayo Friese, a <X>Dutch third culture kid</X>. I've lived
-              in Japan, Belgium, Czech Republic, Netherlands, England, and
-              briefly in Tanzania and Canada. I'm a former <X>dancer</X> and{" "}
-              <X>sk8rboy</X>, <X>gamer</X>, and <X>hobbyist</X> (as in I know
-              how to knit and stuff). In general, I'm just <X>always curious</X>
-              . I'd like to think I'm a solid <X>web developer</X>, but I know I
-              have much to learn, and I make it a mission to learn something new{" "}
-              <X>every day</X>. I hope I get the chance to <X>grow</X> with{" "}
-              <X>you</X>!
+              Sou Kathleen Nascimento, uma garota natural da capital paulista, 
+              mas que cresceu nos montes claros de Minas Gerais, 
+              onde se apaixonou pela música e pela dança. 
+              Atualmente moro em Niterói, a cidade sorriso no Rio de Janeiro, 
+              onde continuei a tocar meu violino em orquestras, 
+              mas também me interessei pelo design, 
+              onde aprendi um pouco sobre Desenho Industrial pela UFF. 
+              Em geral, estou sempre curiosa. 
+              Eu gostaria de pensar que sou uma designer UX/UI sólida, 
+              mas sei que tenho muito a aprender e 
+              tenho a missão de aprender algo novo todos os dias. 
+              Espero ter a chance de crescer com você!
             </Subtitle>
           </Hero>
-          <ExperienceContainer>
-            <ExperienceTitle>EXPERIENCE</ExperienceTitle>
-            <DetailBlock>
-              <RoleTime>
-                <Role>Junior UX Designer</Role>
-                <Time>Summer 2015</Time>
-              </RoleTime>
-              <Client>J. Walter Thompson Amsterdam</Client>
-              <DetailPoint>
-                Worked on designing an unlaunched app for a car company
-              </DetailPoint>
-            </DetailBlock>
-            <DetailBlock>
-              <RoleTime>
-                <Role>Concept Researcher &amp; Producer Intern</Role>
-                <Time>Summer 2016</Time>
-              </RoleTime>
-              <Client>J. Walter Thompson Amsterdam</Client>
-              <DetailPoint>
-                See case studies for information of my tenure
-              </DetailPoint>
-            </DetailBlock>
-            <DetailBlock>
-              <RoleTime>
-                <Role>PHP Intern &amp; Web Team Manager</Role>
-                <Time>2018</Time>
-              </RoleTime>
-              <Client>D-TT</Client>
-              <DetailPoint>
-                Inspired my desire to pursue web design fulltime
-              </DetailPoint>
-            </DetailBlock>
-            <DetailBlock>
-              <RoleTime>
-                <Role>Junior Frontend Developer &amp; Squad Master</Role>
-                <Time>2019</Time>
-              </RoleTime>
-              <Client>Oberon</Client>
-              <DetailPoint>
-                See case studies for information of my tenure
-              </DetailPoint>
-            </DetailBlock>
-          </ExperienceContainer>
-          <ExperienceContainer>
-            <ExperienceTitle>EDUCATION</ExperienceTitle>
-            <DetailBlock>
-              <RoleTime>
-                <Role>IB Certificates</Role>
-                <Time>2008 - 2012</Time>
-              </RoleTime>
-              <Client>American School of The Hague</Client>
-              <DetailPoint />
-            </DetailBlock>
-            <DetailBlock>
-              <RoleTime>
-                <Role>Bcs Games Design &amp; Production</Role>
-                <Time>2013 - 2015</Time>
-              </RoleTime>
-              <Client>Northumbria University</Client>
-              <DetailPoint>
-                Accumulative Grade: 2:1. Quit to further pursue web development
-              </DetailPoint>
-            </DetailBlock>
-            <DetailBlock>
-              <RoleTime>
-                <Role>Bcs in Web Development &amp; Design</Role>
-                <Time>2015 - 2017</Time>
-              </RoleTime>
-              <Client>Northumbria University</Client>
-              <DetailPoint>
-                Graduated with a first class honors degree, with a first
-              </DetailPoint>
-            </DetailBlock>
-          </ExperienceContainer>
-          <ExperienceContainer>
-            <ExperienceTitle>EXTRA THINGS</ExperienceTitle>
-            <DetailBlock>
-              <RoleTime>
-                <Role>Volunteer Fundi* - Engikaret</Role>
-                <Time>2013</Time>
-              </RoleTime>
-              <Client>Projects Abroad - Tanzania</Client>
-              <DetailPoint>
-                *Swahili for Builder
-              </DetailPoint>
-            </DetailBlock>
-            <DetailBlock>
-              <RoleTime>
-                <Role>Level 1 Snowboard Instructor</Role>
-                <Time>2013</Time>
-              </RoleTime>
-              <Client>Nonstop Snowboarding - Canada</Client>
-              <DetailPoint>
-                Qualified to teach beginners in Canada. Might need to renew my license :3
-              </DetailPoint>
-            </DetailBlock>
-            <DetailBlock>
-              <RoleTime>
-                <Role>Level 1 Dance Instructor</Role>
-                <Time>2014</Time>
-              </RoleTime>
-              <Client>Amanda Nicole School of Dance - England</Client>
-              <DetailPoint>
-                Qualified to teach beginners
-              </DetailPoint>
-            </DetailBlock>
-            <DetailBlock>
-              <RoleTime>
-                <Role>Society Marketer &amp; Promotions</Role>
-                <Time>2014-2015</Time>
-              </RoleTime>
-              <Client>Northumbria Dance Society - England</Client>
-              <DetailPoint>
-              Awarded Highly Commended Society of the Year
-              </DetailPoint>
-            </DetailBlock>
-          </ExperienceContainer>
         </Container>
       </Body>
       <WorkLink onClick={() => setAnimateWork(true)} animating={animateWork}>
-        <TextLink>Take a look at some of my work!</TextLink>
+        <TextLink>Dê uma olhada em meu Portfólio!</TextLink>
       </WorkLink>
     </Wrapper>
   );

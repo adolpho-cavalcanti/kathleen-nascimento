@@ -187,7 +187,7 @@ export const caseToWork = keyframes`
     top: 2%;
     height: 75px;
     width: 75px;
-    background-color: ${theme.colors.red};
+    background-color: ${theme.colors.blueLeve};
   }
   50% {
     border-radius: 0;
@@ -198,6 +198,6 @@ export const caseToWork = keyframes`
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: ${theme.colors.red};
+    background-color: ${theme.colors.blueLeve};
   }
 `;

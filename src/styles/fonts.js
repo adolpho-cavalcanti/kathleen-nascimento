@@ -5,7 +5,7 @@ export const HugeHead = styled.h1`
 `;
 
 export const LargeHead = styled.h2`
-  font-size: 10em;
+  font-size: 5em;
 `;
 
 export const MediumHead = styled.h3`

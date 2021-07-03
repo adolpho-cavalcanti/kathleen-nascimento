@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Work from "./pages/Work";
+import Portfolio from "./pages/Portfolio";
 
 import "./styles/root.css";
 import "./styles/media.css";
@@ -38,6 +39,7 @@ const App = () => {
           <Route path="/contact" component={Contact} />
           <Route path="/about" component={About} />
           <Route path="/work" component={Work} />
+          <Route path="/portfolio" component={Portfolio} />
           <Route
             path="/case"
             component={() => (

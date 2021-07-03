@@ -9,7 +9,7 @@ export const Wrapper = styled.main`
   width: 100%;
   transition: opacity 0.2s ease-in-out;
   display: block;
-  background-color: ${theme.colors.green};
+  background-color: ${theme.colors.lightPurple};
 `;
 
 export const HomeLink = styled.div`
@@ -37,13 +37,13 @@ export const HomeLink = styled.div`
       animation-fill-mode: forwards;
       > p {
         position: relative;
-        color: ${theme.colors.blue};
+        color: ${theme.colors.lightSalmon};
       }
-      background-color: ${theme.colors.blue};
+      background-color: ${theme.colors.lightSalmon};
     `}
 
   &:hover {
-    background-color: ${theme.colors.blue};
+    background-color: ${theme.colors.lightSalmon};
     cursor: pointer;
   }
 
@@ -60,7 +60,7 @@ export const HomeText = styled.p`
   top: 50%;
   left: 35%;
   text-transform: uppercase;
-  color: ${theme.colors.green};
+  color: ${theme.colors.lightPurple};
   font-weight: 700;
   transition: left 0.1s ease-in-out, color 0.1s ease-in-out,
     font-weight 0.1s ease-in-out;
@@ -82,13 +82,13 @@ const Section = styled.section`
 `;
 
 export const Container = styled.article`
-  background-color: ${theme.colors.green};
+  background-color: ${theme.colors.lightPurple};
   width: 100%;
   position: relative;
 `;
 
 export const Body = styled(Section)`
-  background-color: ${theme.colors.darkGreen};
+  background-color: ${theme.colors.darklightPurple};
   padding: 0;
   display: flex;
   flex-direction: row;
@@ -104,7 +104,7 @@ export const Hero = styled.div`
   padding: 15vh 8vw 10vh;
 `;
 
-export const Heading = styled.h1`
+export const Heading = styled.h3`
   text-transform: uppercase;
   color: ${theme.colors.white};
   line-height: 1;
@@ -117,7 +117,7 @@ export const Subtitle = styled.h5`
 `;
 
 export const X = styled.span`
-  color: ${theme.colors.lightGreen};
+  color: ${theme.colors.lightlightPurple};
 `;
 
 export const ImageBackground = styled.article`
@@ -129,7 +129,7 @@ export const ImageBackground = styled.article`
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 25vw;
+  width: 40vw;
   box-shadow: -3px 13px 34px rgba(0, 0, 0, 0.2);
 
   @media screen and (max-width: ${theme.mediaQueries.width.s}) {
@@ -150,7 +150,7 @@ export const Overlay = styled.div`
 `;
 
 export const ExperienceContainer = styled.div`
-  background-color: ${theme.colors.darkGreen};
+  background-color: ${theme.colors.darklightPurple};
   padding: 8vh 10vw 35px 10vw;
   width: 100%;
   box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.24);
@@ -217,13 +217,13 @@ export const WorkLink = styled(Section)`
       animation-fill-mode: forwards;
       > p {
         position: relative;
-        color: ${theme.colors.red};
+        color: ${theme.colors.blueLeve};
       }
-      background-color: ${theme.colors.red};
+      background-color: ${theme.colors.blueLeve};
     `}
 
   &:hover {
-    background-color: ${theme.colors.red};
+    background-color: ${theme.colors.blueLeve};
     cursor: pointer;
   }
 
@@ -239,7 +239,7 @@ export const TextLink = styled.p`
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
-  color: ${theme.colors.white};
+  color: ${theme.colors.black};
   font-weight: 300;
   transition: top 0.1s ease-in-out, color 0.1s ease-in-out,
     font-weight 0.1s ease-in-out;

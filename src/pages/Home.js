@@ -35,10 +35,10 @@ const Home = ({ history }) => {
   return (
     <Wrapper>
       <WorkLink onClick={() => setAnimateWork(true)} animating={animateWork}>
-        <WorkText>Work</WorkText>
+        <WorkText>Portfólio</WorkText>
       </WorkLink>
       <AboutLink onClick={() => setAnimateAbout(true)} animating={animateAbout}>
-        <AboutText>About</AboutText>
+        <AboutText>Sobre</AboutText>
       </AboutLink>
       <Article>
         <Title>Olá, sou a Kathleen</Title>
@@ -48,7 +48,7 @@ const Home = ({ history }) => {
       </Article>
       <Article>
         <CoverSheet />
-        <CoverImg src={background} alt="Hayo Cover Photo" />
+        <CoverImg src={background} alt="Kathleen Nascimento" />
       </Article>
     </Wrapper>
   );

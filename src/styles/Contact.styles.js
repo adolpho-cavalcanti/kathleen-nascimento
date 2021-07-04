@@ -24,3 +24,8 @@ export const Header = styled(MediumHead)`
   font-size: 3em;
   text-align: center;
 `;
+
+export const ContainerSocialContact = styled.div`
+  display: flex;
+  justify-content: center;
+`;

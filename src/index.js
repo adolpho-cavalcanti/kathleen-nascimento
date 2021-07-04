@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Work from "./pages/Work";
 import Portfolio from "./pages/Portfolio";
+import Figma from "./pages/Figma";
 
 import "./styles/root.css";
 import "./styles/media.css";
@@ -40,6 +41,7 @@ const App = () => {
           <Route path="/about" component={About} />
           <Route path="/work" component={Work} />
           <Route path="/portfolio" component={Portfolio} />
+          <Route path="/figma" component={Figma} />
           <Route
             path="/case"
             component={() => (

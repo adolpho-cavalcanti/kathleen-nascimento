@@ -10,10 +10,6 @@ import {
 } from "../styles/Navigation.styles";
 import { SocialItem } from "../styles/Navigation.styles";
 import {
-  Instagram,
-  Facebook,
-  Twitter,
-  Github,
   LinkedIn
 } from "../components/Socials";
 import { withRouter } from "react-router";
@@ -89,33 +85,21 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
           <Spanner opening={linking === "home"} />
         </Page>
         <Page variant="about" onClick={() => setLinkHandler("about")}>
-          <LinkTag>About</LinkTag>
+          <LinkTag>Sobre</LinkTag>
           <Spanner opening={linking === "about"} />
         </Page>
         <Page variant="work" onClick={() => setLinkHandler("work")}>
-          <LinkTag>Work</LinkTag>
+          <LinkTag>Portfólio</LinkTag>
           <Spanner opening={linking === "work"} />
         </Page>
         <Page variant="contact" onClick={() => setLinkHandler("contact")}>
-          <LinkTag>Contact</LinkTag>
+          <LinkTag>Contato</LinkTag>
           <Spanner opening={linking === "contact"} />
         </Page>
       </Body>
       <SocialContainer open={isOn}>
         <SocialItem>
-          <Facebook />
-        </SocialItem>
-        <SocialItem>
-          <Twitter />
-        </SocialItem>
-        <SocialItem>
           <LinkedIn />
-        </SocialItem>
-        <SocialItem>
-          <Instagram />
-        </SocialItem>
-        <SocialItem>
-          <Github />
         </SocialItem>
       </SocialContainer>
     </Wrapper>

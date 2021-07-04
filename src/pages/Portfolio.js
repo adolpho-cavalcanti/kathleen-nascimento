@@ -89,10 +89,6 @@ const Portfolio = ({ history }) => {
                 <img alt="Protótipo" src={identidadeVisual} />
               </div>
             </IdentidadeVisual>
-
-                <a href="https://www.figma.com/file/mInMqnFTDzTzPtJEONMnQR/X11-GO?node-id=0%3A1">Figma X11</a>
-                <a href="https://www.figma.com/proto/mInMqnFTDzTzPtJEONMnQR/X11-GO?node-id=1%3A2&viewport=-2852%2C303%2C0.46698129177093506&scaling=scale-down&hide-ui=1">Protótipo X11</a>
-                <a href="https://www.figma.com/file/ef5DviUltaCqg4kXRHTViA/Layout-Portif%C3%B3lio?node-id=1%3A2">Figma Portfólio</a>
           </Container>
       </Main>
     </>

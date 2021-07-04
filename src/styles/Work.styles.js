@@ -111,6 +111,7 @@ export const LinkWrap = styled.a`
   ${({ coverImage }) => `
     background-image: url(${coverImage});
   `}
+  opacity: 0.7;
   height: 70%;
   width: 75%;
   display: block;

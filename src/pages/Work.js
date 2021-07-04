@@ -62,13 +62,10 @@ const Work = ({ history }) => {
 
   const PreviousIcon = require("../assets/icons/left-arrow.png");
   const NextIcon = require("../assets/icons/right-arrow.png");
-
-  const CaseOne = require("../assets/cases/case-1-shuttershare/shuttershare-hero.jpg");
-  const CaseTwo = require("../assets/cases/adscope-hero.jpg");
-  const CaseThree = require("../assets/cases/tiptopmusic-hero.jpg");
-  const CaseFour = require("../assets/cases/schoolforjustice-hero.jpg");
-  const CaseFive = require("../assets/cases/damtotdamloop-hero.jpg");
-
+  
+  const CaseOne = require("../assets/portfolio/x11/capa-x11-go.png");
+  const CaseTwo = require("../assets/portfolio/x11/sala-do-time.png");
+  
   const handleCaseSwap = (e, uri) =>
     e.x < coord + 15 && e.x > coord - 15 && setCase(uri);
 
@@ -82,19 +79,18 @@ const Work = ({ history }) => {
           <SliderContainer {...settings} ref={carousel} toCase={!!toCase}>
             <div>
               <SlideWrapper>
-                <LinkWrap coverImage={CaseOne} active={toCase === "/case"}>
+                <LinkWrap coverImage={CaseOne} active={toCase === "/portfolio"}>
                   <Overlay
                     active={!!toCase}
                     onMouseDown={e => setCoords(e.nativeEvent.x)}
-                    onMouseUp={e => handleCaseSwap(e.nativeEvent, "/case")}
+                    onMouseUp={e => handleCaseSwap(e.nativeEvent, "/portfolio")}
                   >
                     <ContentWrap>
                       <CaseTitle>
-                        ShutterShare
+                        X11 GO
                         <Spanner />
                       </CaseTitle>
-                      <Subtitle>Back-End</Subtitle>
-                      <Subtitle>Northumbria University</Subtitle>
+                      <Subtitle>Confira!</Subtitle>
                     </ContentWrap>
                   </Overlay>
                 </LinkWrap>
@@ -102,63 +98,18 @@ const Work = ({ history }) => {
             </div>
             <div>
               <SlideWrapper>
-                <LinkWrap coverImage={CaseTwo}>
-                  <Overlay>
+                <LinkWrap coverImage={CaseTwo} active={toCase === "/figma"}>
+                  <Overlay
+                    active={!!toCase}
+                    onMouseDown={e => setCoords(e.nativeEvent.x)}
+                    onMouseUp={e => handleCaseSwap(e.nativeEvent, "/figma")}
+                  >
                     <ContentWrap>
                       <CaseTitle>
-                        Adscope
+                        Projetos no Figma
                         <Spanner />
                       </CaseTitle>
-                      <Subtitle>UX . Back-End</Subtitle>
-                      <Subtitle>Northumbria University</Subtitle>
-                    </ContentWrap>
-                  </Overlay>
-                </LinkWrap>
-              </SlideWrapper>
-            </div>
-            <div>
-              <SlideWrapper>
-                <LinkWrap coverImage={CaseThree}>
-                  <Overlay>
-                    <ContentWrap>
-                      <CaseTitle>
-                        TipTop Music
-                        <Spanner />
-                      </CaseTitle>
-                      <Subtitle>Front-End . API</Subtitle>
-                      <Subtitle>Northumbria University</Subtitle>
-                    </ContentWrap>
-                  </Overlay>
-                </LinkWrap>
-              </SlideWrapper>
-            </div>
-            <div>
-              <SlideWrapper>
-                <LinkWrap coverImage={CaseFour}>
-                  <Overlay>
-                    <ContentWrap>
-                      <CaseTitle>
-                        School For Justice
-                        <Spanner />
-                      </CaseTitle>
-                      <Subtitle>Front-End</Subtitle>
-                      <Subtitle>J. Walter Thompson Amsterdam</Subtitle>
-                    </ContentWrap>
-                  </Overlay>
-                </LinkWrap>
-              </SlideWrapper>
-            </div>
-            <div>
-              <SlideWrapper>
-                <LinkWrap coverImage={CaseFive}>
-                  <Overlay>
-                    <ContentWrap>
-                      <CaseTitle>
-                        Ziggo Dam Tot Dam Loop
-                        <Spanner />
-                      </CaseTitle>
-                      <Subtitle>Conceptualization</Subtitle>
-                      <Subtitle>J. Walter Thompson Amsterdam</Subtitle>
+                      <Subtitle>Confira!</Subtitle>
                     </ContentWrap>
                   </Overlay>
                 </LinkWrap>
@@ -170,7 +121,7 @@ const Work = ({ history }) => {
               <Button src={PreviousIcon} alt="Previous case" />
             </SlickSwitch>
             <Current>
-              <p>0{currentSlide} / 05</p>
+              <p>0{currentSlide} / 02</p>
             </Current>
             <SlickSwitch onClick={() => carousel.current.slickNext()}>
               <Button src={NextIcon} alt="Next case" />

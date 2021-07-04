@@ -52,7 +52,7 @@ export const Github = () => {
 
 export const LinkedIn = () => {
   return (
-    <Social href="https://www.linkedin.com/in/hayo-friese-121949a8/">
+    <Social href="https://www.linkedin.com/in/kathleen-nascimento-6b3b6120b">
       <Svg x="0px" y="0px" viewBox="0 0 430.117 430.117" space="preserve">
         <style>enable-background:new 0 0 430.117 430.117;</style>
         <path

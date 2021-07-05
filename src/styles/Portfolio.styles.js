@@ -87,19 +87,22 @@ export const Item1 = styled.div`
 `;
 export const TextItem1 = styled.p`
     margin: 1rem 0;
-    font-size: 1rem;
     font-weight: 800;
-    line-height: 2rem;
+    font-size: max(1.25rem, 1vw);
+    line-height: max(1rem, 2vw);
 `;
 
 export const TitleSection = styled.p`
     font-Weight: 700;
-    font-size: max(0.75rem, 1.5vw);
+    font-size: max(2rem, 3vw);
     line-height: max(1rem, 3vw);
 `;
 
 export const TextPadrao = styled.p`
-    font-size: 0.75rem;
+    margin-top: 2rem;
+    font-size: max(1.25rem, 1vw);
+    line-height: max(1rem, 2vw);
+    font-weight: 300;
 `;
 
 export const Item2 = styled.div`

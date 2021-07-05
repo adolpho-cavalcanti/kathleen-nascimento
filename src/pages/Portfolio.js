@@ -81,7 +81,7 @@ const Portfolio = ({ history }) => {
             <TitleDiv style={{marginTop:70}}>
               <TitleSection>Identidade visual</TitleSection>
               <TextPadrao>
-              Usando cores neon forte e simples e tipografia confiável,  foi criada diretrizes de marca digital rápidas e eficazes.O contraste do fundo preto com as cores neon foi usado para representar a ideia de um espaço jovem, moderno e elegante.
+              Usando cores neon forte, simples e tipografia confiável,  foi criada diretrizes de marca digital rápidas e eficazes.O contraste do fundo preto com as cores neon foi usado para representar a ideia de um espaço jovem, moderno e elegante.
               </TextPadrao>
             </TitleDiv>
             <IdentidadeVisual>
